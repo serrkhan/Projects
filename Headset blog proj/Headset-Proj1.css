@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dbd5f5; 
+}
+
+header {
+    background-image: url(https://4kwallpapers.com/images/wallpapers/waves-purple-3840x2160-11757.png);
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    margin: 20px;
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+article {
+    position: relative;
+    padding-right: 150px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eeeeee; 
+}
+
+article h2 {
+    color: #333333; 
+    margin-bottom: 10px;
+}
+
+article p {
+    color: #666666; 
+    line-height: 1.6; 
+}
+
+footer {
+    background-color: #6a1b9a;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #1cd4d4;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.right-img {
+    float: right;
+    margin: 0px 0px 20px 20px;
+    max-width: 100px;
+    transition: transform 0.5s;
+    transform-origin: right;
+}
+
+.right-img:hover {
+    transform: scale(5);
+    z-index: 1000;
+    position: relative;
+}
